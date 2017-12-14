@@ -8,9 +8,13 @@ namespace OpenSpeelkaarten.ProgramElements.Deck
 {
     class Deck:SLLStack<Card>
     {
-        public Deck(string type ="shuffle")
+        /// <summary>
+        /// Creates a new deck.
+        /// </summary>
+        /// <param name="shuffle"> True for a shuffled deck else false.</param>
+        public Deck(bool shuffle = true )
         {
-            if (type=="shuffle")
+            if (shuffle)
             {
                 CreateDeck();
             }

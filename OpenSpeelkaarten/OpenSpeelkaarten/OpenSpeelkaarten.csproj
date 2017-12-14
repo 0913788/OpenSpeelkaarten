@@ -42,12 +42,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comparator\CardComparator.cs" />
+    <Compile Include="Comparator\IComparator.cs" />
+    <Compile Include="Comparator\IntComparator.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProgramElements\Cards\AbsCard.cs" />
+    <Compile Include="ProgramElements\Cards\Card.cs" />
+    <Compile Include="ProgramElements\Cards\ICard.cs" />
+    <Compile Include="ProgramElements\Deck\Deck.cs" />
+    <Compile Include="Structures\Nodes\SingledLinkedListNodes\AbsSingleLinkedListNode.cs" />
+    <Compile Include="Structures\Nodes\SingledLinkedListNodes\EmptySLLNode.cs" />
+    <Compile Include="Structures\Nodes\SingledLinkedListNodes\ISingleLinkedListNode.cs" />
+    <Compile Include="Structures\Nodes\SingledLinkedListNodes\SLLNode.cs" />
+    <Compile Include="Structures\Nodes\TreeNodes\AbsTreeNode.cs" />
+    <Compile Include="Structures\Nodes\TreeNodes\ITreeNode.cs" />
+    <Compile Include="Structures\Nodes\TreeNodes\TreeNode.cs" />
+    <Compile Include="Structures\Queue\AbsQueue.cs" />
+    <Compile Include="Structures\Queue\IQueue.cs" />
+    <Compile Include="Structures\Queue\SLLQueue.cs" />
+    <Compile Include="Structures\SLL\AbsSingleLinkedList.cs" />
+    <Compile Include="Structures\SLL\ISingleLinkedList.cs" />
+    <Compile Include="Structures\SLL\SingleLinkedList.cs" />
+    <Compile Include="Structures\Stack\AbsStack.cs" />
+    <Compile Include="Structures\Stack\IStack.cs" />
+    <Compile Include="Structures\Stack\SLLStack.cs" />
+    <Compile Include="Structures\Tree\AbsTree.cs" />
+    <Compile Include="Structures\Tree\ITree.cs" />
+    <Compile Include="Structures\Tree\Tree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Searchers\ArraySearch.cs" />
+    <Compile Include="Searchers\Array\AbsArraySearch.cs" />
+    <Compile Include="Searchers\ISearch.cs" />
+    <Compile Include="Searchers\List\AbsListSearch.cs" />
+    <Compile Include="Searchers\SingleLinkedList\AbsSingleLinkedListSearch.cs" />
+    <Compile Include="Sorters\ArraySort.cs" />
+    <Compile Include="Sorters\Array\AbsArraySort.cs" />
+    <Compile Include="Sorters\ISort.cs" />
+    <Compile Include="Sorters\List\AbsListSort.cs" />
+    <Compile Include="Sorters\SingleLinkedList\AbsSingleLinkedListSort.cs" />
     <Compile Include="Tests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

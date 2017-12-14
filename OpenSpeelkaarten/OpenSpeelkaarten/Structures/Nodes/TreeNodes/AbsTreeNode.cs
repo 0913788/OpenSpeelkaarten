@@ -12,7 +12,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public ITreeNode<T> GetLeftNode()
+        public ITreeNode<T> GetLeftChild()
         {
             throw new NotImplementedException();
         }
@@ -22,7 +22,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public ITreeNode<T> GetRightNode()
+        public ITreeNode<T> GetRightChild()
         {
             throw new NotImplementedException();
         }
@@ -37,7 +37,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public void SetLeftNode(ITreeNode<T> node)
+        public void SetLeftChild(ITreeNode<T> node)
         {
             throw new NotImplementedException();
         }
@@ -47,7 +47,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public void SetRightNode(ITreeNode<T> node)
+        public void SetRightChild(ITreeNode<T> node)
         {
             throw new NotImplementedException();
         }
