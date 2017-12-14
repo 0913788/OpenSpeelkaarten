@@ -24,7 +24,7 @@ namespace OpenSpeelkaarten
             throw new NotImplementedException();
         }
         /// <summary>
-        /// Performs tests for the search algorithms.
+        /// Performs tests for the sort algorithms.
         /// </summary>
         public void TestSort()
         {
