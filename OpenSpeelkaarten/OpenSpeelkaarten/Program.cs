@@ -9,7 +9,7 @@ namespace OpenSpeelkaarten
     class Program
     {
         /// <summary>
-        /// Perform tests to see if your implementation of datastructures and algorithms works.
+        /// Perform tests to see if your implementation of datastructures and algorithms work.
         /// </summary>
         static void Main(string[] args)
         {

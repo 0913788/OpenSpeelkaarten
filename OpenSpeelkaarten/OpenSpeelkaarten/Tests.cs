@@ -56,7 +56,6 @@ namespace OpenSpeelkaarten
         /// Draws a card from a given deck.
         /// </summary>
         /// <param name="deck">Deck from which a card will be drawn.</param>
-        /// <returns></returns>
         private Card DrawCard(Deck deck)
         {
             return deck.Pop();
