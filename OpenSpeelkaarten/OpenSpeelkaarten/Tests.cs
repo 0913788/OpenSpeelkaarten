@@ -1,21 +1,40 @@
-﻿using OpenSpeelkaarten.ProgramElements.Deck;
-using OpenSpeelkaarten.ProgramElements.Cards;
-using System;
-using OpenSpeelkaarten.Structures.SLL;
-using OpenSpeelkaarten.Structures.Tree;
+﻿using System;
 using OpenSpeelkaarten.Comparator;
+using OpenSpeelkaarten.ProgramElements.Cards;
+using OpenSpeelkaarten.Structures.SLL;
+using OpenSpeelkaarten.Structures.Stack;
+using OpenSpeelkaarten.Structures.Queue;
+using OpenSpeelkaarten.Structures.Tree;
+using OpenSpeelkaarten.Sorters;
+using OpenSpeelkaarten.Searchers;
 
 namespace OpenSpeelkaarten
 {
     class Tests
     {
-        /// <summary>
+        /// <summary>-
         /// Performs a test for the single linked list data structure.
         /// </summary>
         public void TestSLL()
         {
-            throw new NotImplementedException();
+            //Example
+            Deck deck = new Deck();
+            ISingleLinkedList<Card> sll = new SingleLinkedList<Card>();
+            ISort<int, int[]> a = new ArraySort<int>(new IntComparator());
+            for (int i = 0; i < 25; i++)
+            {
+                sll.Insert(DrawCard(deck));
+            }
+            sll.Display();
+            Console.WriteLine();
+            sll.DeleteHead();
+            sll.Display();
+            Console.WriteLine();
+            sll.DeleteEnd();
+            sll.Display();
+            Console.WriteLine();
         }
+
         /// <summary>
         /// Performs tests for the search algorithms.
         /// </summary>
@@ -23,6 +42,7 @@ namespace OpenSpeelkaarten
         {
             throw new NotImplementedException();
         }
+        
         /// <summary>
         /// Performs tests for the sort algorithms.
         /// </summary>
@@ -30,6 +50,7 @@ namespace OpenSpeelkaarten
         {
             throw new NotImplementedException();
         }
+        
         /// <summary>
         /// Performs tests for the tree data structure.
         /// </summary>
@@ -37,6 +58,7 @@ namespace OpenSpeelkaarten
         {
             throw new NotImplementedException();
         }
+        
         /// <summary>
         /// Performs tests for the stack data structure.
         /// </summary>
@@ -44,6 +66,7 @@ namespace OpenSpeelkaarten
         {
             throw new NotImplementedException();
         }
+        
         /// <summary>
         /// Performs tests for the queue data structure.
         /// </summary>

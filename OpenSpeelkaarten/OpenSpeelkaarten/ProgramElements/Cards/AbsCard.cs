@@ -6,12 +6,12 @@ namespace OpenSpeelkaarten.ProgramElements.Cards
     {
         protected string value, type;
 
-        public string TheType()
+        public string GetCardType()
         {
             return type;
         }
 
-        public string TheValue()
+        public string GetCardValue()
         {
             return value;
         }

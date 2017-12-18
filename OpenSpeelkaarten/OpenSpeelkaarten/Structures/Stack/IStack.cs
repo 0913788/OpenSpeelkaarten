@@ -1,6 +1,6 @@
 ﻿namespace OpenSpeelkaarten.Structures.Stack
 {
-    interface IStack<L,T>
+    interface IStack<T, L>
     {
         /// <summary>
         /// Returns the top value of the stack and removes the element.

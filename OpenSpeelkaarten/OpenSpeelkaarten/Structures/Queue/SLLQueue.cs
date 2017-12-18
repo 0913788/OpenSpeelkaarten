@@ -3,7 +3,7 @@ using System;
 
 namespace OpenSpeelkaarten.Structures.Queue
 {
-    class SLLQueue<T> : AbsQueue<ISingleLinkedList<T>, T>
+    class SLLQueue<T> : AbsQueue<T, ISingleLinkedList<T>>
     {
         public SLLQueue()
         {

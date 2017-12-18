@@ -3,10 +3,10 @@
     class IntComparator : IComparator<int>
     {
 
-        public int Compare(int searchTarget, int source)
+        public int Compare(int compareElement, int target)
         {
-            if (searchTarget > source) return 1;
-            else if (searchTarget == source) return 0;
+            if (compareElement > target) return 1;
+            else if (compareElement == target) return 0;
             else return -1;
         }
     }

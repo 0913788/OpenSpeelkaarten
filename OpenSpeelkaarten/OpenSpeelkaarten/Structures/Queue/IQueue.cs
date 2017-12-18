@@ -1,6 +1,6 @@
 ﻿namespace OpenSpeelkaarten.Structures.Queue
 {
-    interface IQueue<L, T>
+    interface IQueue<T, L>
     {
         /// <summary>
         /// Adds an item to the back of the queue.

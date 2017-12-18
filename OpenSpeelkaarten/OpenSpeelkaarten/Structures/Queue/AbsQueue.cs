@@ -1,6 +1,6 @@
 ﻿namespace OpenSpeelkaarten.Structures.Queue
 {
-    abstract class AbsQueue<L, T> : IQueue<L, T>
+    abstract class AbsQueue<T, L> : IQueue<T, L>
     {
         protected L elements;
 

@@ -6,13 +6,13 @@
         /// Retruns the type of a card.
         /// </summary>
         /// <returns>String</returns>
-        string TheType();
+        string GetCardType();
         
         /// <summary>
         /// Returns the value of a card.
         /// </summary>
         /// <returns>String</returns>
-        string TheValue();
+        string GetCardValue();
 
         /// <summary>
         /// Returns the following card representation: "[Type] [Value]"

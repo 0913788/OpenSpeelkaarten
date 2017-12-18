@@ -8,13 +8,13 @@ namespace OpenSpeelkaarten.Comparator
         string[] values = { "A","K", "V", "B", "10", "9", "8","7","6","5","4","3","2" };
         string[] types = { "Schoppen","Harten","Klaveren", "Ruiten"};
 
-        public int Compare(Card searchTarget, Card source)
+        public int Compare(Card compareElement, Card target)
         {
-            string searchValue = searchTarget.TheValue();
-            string searchType = searchTarget.TheType();
+            string searchValue = compareElement.GetCardValue();
+            string searchType = compareElement.GetCardType();
 
-            string sourceValue = source.TheValue();
-            string sourceType = source.TheType();
+            string sourceValue = target.GetCardValue();
+            string sourceType = target.GetCardType();
 
             bool searchValueHit = false;
             bool sourceValueHit = false;

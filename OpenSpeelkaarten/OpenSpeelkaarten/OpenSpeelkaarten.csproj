@@ -49,7 +49,7 @@
     <Compile Include="ProgramElements\Cards\AbsCard.cs" />
     <Compile Include="ProgramElements\Cards\Card.cs" />
     <Compile Include="ProgramElements\Cards\ICard.cs" />
-    <Compile Include="ProgramElements\Deck\Deck.cs" />
+    <Compile Include="Structures\Stack\Deck.cs" />
     <Compile Include="Structures\Nodes\SingledLinkedListNodes\AbsSingleLinkedListNode.cs" />
     <Compile Include="Structures\Nodes\SingledLinkedListNodes\EmptySLLNode.cs" />
     <Compile Include="Structures\Nodes\SingledLinkedListNodes\ISingleLinkedListNode.cs" />

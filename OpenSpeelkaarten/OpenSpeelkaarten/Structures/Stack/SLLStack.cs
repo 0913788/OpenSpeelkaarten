@@ -3,7 +3,7 @@ using System;
 
 namespace OpenSpeelkaarten.Structures.Stack
 {
-    class SLLStack<T> : AbsStack<SingleLinkedList<T>, T>
+    class SLLStack<T> : AbsStack<T, SingleLinkedList<T>>
     {
         public SLLStack()
         {

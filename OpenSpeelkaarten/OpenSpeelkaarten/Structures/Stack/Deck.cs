@@ -4,7 +4,7 @@ using System.Linq;
 using OpenSpeelkaarten.ProgramElements.Cards;
 using OpenSpeelkaarten.Structures.Stack;
 
-namespace OpenSpeelkaarten.ProgramElements.Deck
+namespace OpenSpeelkaarten.Structures.Stack
 {
     class Deck:SLLStack<Card>
     {

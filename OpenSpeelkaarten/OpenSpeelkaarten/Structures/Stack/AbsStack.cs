@@ -1,6 +1,6 @@
 ﻿namespace OpenSpeelkaarten.Structures.Stack
 {
-    abstract class AbsStack<L, T> : IStack<L, T>
+    abstract class AbsStack<T, L> : IStack<T, L>
     {
         protected L elements;
         abstract public bool IsEmpty();
