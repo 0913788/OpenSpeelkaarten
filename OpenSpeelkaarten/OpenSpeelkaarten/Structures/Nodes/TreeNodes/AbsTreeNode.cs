@@ -5,7 +5,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
     abstract class AbsTreeNode<T> : ITreeNode<T>
     {
         protected T value;
-        protected ITreeNode<T> leftNode = null, rightNode = null, parentNode;
+        protected ITreeNode<T> leftChild = null, rightChild = null, parent;
 
         public void Disconnect()
         {
@@ -17,7 +17,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public ITreeNode<T> GetParentNode()
+        public ITreeNode<T> GetParent()
         {
             throw new NotImplementedException();
         }
@@ -42,7 +42,7 @@ namespace OpenSpeelkaarten.Structures.Nodes.TreeNodes
             throw new NotImplementedException();
         }
 
-        public void SetPartentNode(ITreeNode<T> node)
+        public void SetPartent(ITreeNode<T> node)
         {
             throw new NotImplementedException();
         }

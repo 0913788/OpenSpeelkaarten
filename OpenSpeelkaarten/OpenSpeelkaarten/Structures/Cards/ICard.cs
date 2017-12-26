@@ -1,4 +1,4 @@
-﻿namespace OpenSpeelkaarten.ProgramElements.Cards
+﻿namespace OpenSpeelkaarten.Structures.Cards
 {
     interface ICard
     {
@@ -18,6 +18,6 @@
         /// Returns the following card representation: "[Type] [Value]"
         /// </summary>
         /// <returns>String</returns>
-        string Stringify();
+         void Print();
     }
 }

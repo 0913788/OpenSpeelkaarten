@@ -1,4 +1,4 @@
-﻿namespace OpenSpeelkaarten.ProgramElements.Cards
+﻿namespace OpenSpeelkaarten.Structures.Cards
 {
     class Card: AbsCard
     {

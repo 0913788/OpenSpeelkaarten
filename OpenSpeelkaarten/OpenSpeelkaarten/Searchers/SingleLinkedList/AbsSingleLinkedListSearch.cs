@@ -1,13 +1,13 @@
-﻿using OpenSpeelkaarten.Comparator;
+﻿using OpenSpeelkaarten.Comparators;
 using OpenSpeelkaarten.Structures.SLL;
 using System;
 
 namespace OpenSpeelkaarten.Searchers.SingleLinkedList
 {
-    class AbsSingleLinkedListSearch<T> : ISearch<ISingleLinkedList<T>, T>
+    class AbsSingleLinkedListSearch<T> : ISearch<T, ISingleLinkedList<T>>
     {
         protected IComparator<T> comparator;
-        public bool BinarySearch(T list, ISingleLinkedList<T> target)
+        public bool BinarySearch(ISingleLinkedList<T> list, T target)
         {
             throw new NotImplementedException();
         }

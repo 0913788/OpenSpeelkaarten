@@ -1,13 +1,13 @@
-﻿using OpenSpeelkaarten.Comparator;
+﻿using OpenSpeelkaarten.Comparators;
 using OpenSpeelkaarten.Structures.SLL;
 using System;
 
 namespace OpenSpeelkaarten.Sorters.SingleLinkedList
 {
-    class AbsSingleLinkedListSort<T> : ISort<ISingleLinkedList<T>, T>
+    class AbsSingleLinkedListSort<T> : ISort<T, ISingleLinkedList<T>>
     {
         protected IComparator<T> comparator;
-        public T InsertionSort(T list)
+        public ISingleLinkedList<T> InsertionSort(ISingleLinkedList<T> list)
         {
             throw new NotImplementedException();
         }

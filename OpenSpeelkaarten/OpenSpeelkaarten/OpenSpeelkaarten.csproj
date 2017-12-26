@@ -42,13 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Comparator\CardComparator.cs" />
-    <Compile Include="Comparator\IComparator.cs" />
-    <Compile Include="Comparator\IntComparator.cs" />
+    <Compile Include="Comparators\CardComparator.cs" />
+    <Compile Include="Comparators\IComparator.cs" />
+    <Compile Include="Comparators\IntComparator.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramElements\Cards\AbsCard.cs" />
-    <Compile Include="ProgramElements\Cards\Card.cs" />
-    <Compile Include="ProgramElements\Cards\ICard.cs" />
+    <Compile Include="Structures\Cards\AbsCard.cs" />
+    <Compile Include="Structures\Cards\Card.cs" />
+    <Compile Include="Structures\Cards\ICard.cs" />
     <Compile Include="Structures\Stack\Deck.cs" />
     <Compile Include="Structures\Nodes\SingledLinkedListNodes\AbsSingleLinkedListNode.cs" />
     <Compile Include="Structures\Nodes\SingledLinkedListNodes\EmptySLLNode.cs" />
@@ -80,11 +80,12 @@
     <Compile Include="Sorters\ISort.cs" />
     <Compile Include="Sorters\List\AbsListSort.cs" />
     <Compile Include="Sorters\SingleLinkedList\AbsSingleLinkedListSort.cs" />
-    <Compile Include="Tests.cs" />
+    <Compile Include="Tests\CardTests.cs" />
+    <Compile Include="Tests\AbsTests.cs" />
+    <Compile Include="Tests\ITests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

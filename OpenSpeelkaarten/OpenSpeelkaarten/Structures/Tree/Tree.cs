@@ -1,4 +1,4 @@
-﻿using OpenSpeelkaarten.Comparator;
+﻿using OpenSpeelkaarten.Comparators;
 using System;
 
 namespace OpenSpeelkaarten.Structures.Tree

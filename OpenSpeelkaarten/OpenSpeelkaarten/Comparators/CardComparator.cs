@@ -1,7 +1,7 @@
 ﻿using System;
-using OpenSpeelkaarten.ProgramElements.Cards;
+using OpenSpeelkaarten.Structures.Cards;
 
-namespace OpenSpeelkaarten.Comparator
+namespace OpenSpeelkaarten.Comparators
 {
     class CardComparator:IComparator<Card>
     {

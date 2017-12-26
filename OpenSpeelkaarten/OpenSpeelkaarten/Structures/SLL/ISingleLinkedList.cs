@@ -40,13 +40,8 @@ namespace OpenSpeelkaarten.Structures.SLL
         void DeleteSpecific(T value);
         
         /// <summary>
-        /// Prints the SLL.
+        /// Prints all elements of the SLL.
         /// </summary>
         void Display();
-        
-        /// <summary>
-        /// Returns the head(node) of the SLL.
-        /// </summary>
-        ISingleLinkedListNode<T> GetHead();
     }
 }

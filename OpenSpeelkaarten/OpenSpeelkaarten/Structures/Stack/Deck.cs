@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using OpenSpeelkaarten.ProgramElements.Cards;
+using OpenSpeelkaarten.Structures.Cards;
 using OpenSpeelkaarten.Structures.Stack;
 
 namespace OpenSpeelkaarten.Structures.Stack
@@ -16,15 +16,15 @@ namespace OpenSpeelkaarten.Structures.Stack
         {
             if (shuffle)
             {
-                CreateDeck();
+                CreateCardDeck();
             }
             else
             {
-                CreateDeck(false);
+                CreateCardDeck(false);
             }
         }
 
-        private void CreateDeck(bool shuffle = true)
+        private void CreateCardDeck(bool shuffle = true)
         {
             string[] values = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "B", "V", "K", "A" };
             string[] types = { "Ruiten", "Klaveren", "Harten", "Schoppen" };

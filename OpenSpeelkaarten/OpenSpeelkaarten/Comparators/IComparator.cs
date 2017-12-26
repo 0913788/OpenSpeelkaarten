@@ -1,4 +1,4 @@
-﻿namespace OpenSpeelkaarten.Comparator
+﻿namespace OpenSpeelkaarten.Comparators
 {
     interface IComparator<T>
     {

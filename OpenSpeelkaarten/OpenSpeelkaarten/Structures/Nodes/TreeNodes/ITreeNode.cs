@@ -11,13 +11,13 @@
         /// Returns the parent of the node.
         /// </summary>
         /// <returns></returns>
-        ITreeNode<T> GetParentNode();
+        ITreeNode<T> GetParent();
         
         /// <summary>
         /// Sets the parent of the node.
         /// </summary>
         /// <param name="node">Node which will become the new parent of the node</param>
-        void SetPartentNode(ITreeNode<T> node);
+        void SetPartent(ITreeNode<T> node);
         
         /// <summary>
         /// Returns the left child of the node.

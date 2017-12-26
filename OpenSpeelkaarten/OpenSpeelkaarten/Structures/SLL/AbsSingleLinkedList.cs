@@ -7,11 +7,6 @@ namespace OpenSpeelkaarten.Structures.SLL
     {
         protected ISingleLinkedListNode<T> head;
 
-        public AbsSingleLinkedList()
-        {
-            throw new NotImplementedException();
-        }
-
         public void DeleteEnd()
         {
             throw new NotImplementedException();
@@ -43,11 +38,6 @@ namespace OpenSpeelkaarten.Structures.SLL
         }
 
         public void InsertAtEnd(T value)
-        {
-            throw new NotImplementedException();
-        }
-
-        public ISingleLinkedListNode<T> GetHead()
         {
             throw new NotImplementedException();
         }

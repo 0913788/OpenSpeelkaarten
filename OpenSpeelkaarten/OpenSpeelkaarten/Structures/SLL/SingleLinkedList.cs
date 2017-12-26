@@ -4,7 +4,7 @@ namespace OpenSpeelkaarten.Structures.SLL
 {
     class SingleLinkedList<T> : AbsSingleLinkedList<T>
     {
-        public SingleLinkedList() : base()
+        public SingleLinkedList()
         {
             throw new NotImplementedException();
         }

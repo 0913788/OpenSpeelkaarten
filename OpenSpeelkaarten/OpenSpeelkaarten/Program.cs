@@ -1,4 +1,6 @@
-﻿using System;
+﻿using OpenSpeelkaarten.Comparators;
+using OpenSpeelkaarten.Structures.Cards;
+using OpenSpeelkaarten.Tests;
 
 namespace OpenSpeelkaarten
 {
@@ -9,7 +11,8 @@ namespace OpenSpeelkaarten
         /// </summary>
         static void Main(string[] args)
         {
-            Tests tester = new Tests();
+            ITests<Card> CardTest = new CardTests();
+            CardTest.TestSLL();
         }
     }
 }

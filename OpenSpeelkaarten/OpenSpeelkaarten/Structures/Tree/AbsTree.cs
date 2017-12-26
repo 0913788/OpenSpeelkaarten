@@ -1,4 +1,4 @@
-﻿using OpenSpeelkaarten.Comparator;
+﻿using OpenSpeelkaarten.Comparators;
 using OpenSpeelkaarten.Structures.Nodes.TreeNodes;
 using System;
 

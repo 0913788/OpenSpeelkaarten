@@ -1,6 +1,7 @@
 ﻿using System;
 
-namespace OpenSpeelkaarten.ProgramElements.Cards
+namespace OpenSpeelkaarten.Structures.Cards
+
 {
     class AbsCard :ICard
     {
@@ -16,9 +17,9 @@ namespace OpenSpeelkaarten.ProgramElements.Cards
             return value;
         }
 
-        public string Stringify()
+        public void Print()
         {
-            return string.Format("{0} {1}", type, value);
+           Console.WriteLine(string.Format("{0} {1}", type, value));
         }
     }
 }
