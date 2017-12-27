@@ -3,7 +3,7 @@ using OpenSpeelkaarten.Tests;
 
 //  De OpenSpeelkaarten applicatie is op te delen in twee onderdelen, één deel datastructuren ("Structures" map) en één deel algoritmiek
 //  ("Searchers" en "Sorters" map). Beide onderdelen bevatten een basis structuur voor een applicatie waarin gewerkt wordt met kaarten 
-//  echter mist hierin de implementatie van gedrag. Het is dan ook de opdracht om deze missende functionaliteit te voegen 
+//  echter mist hierin de implementatie van gedrag. Het is dan ook de opdracht om deze missende functionaliteit toe te voegen 
 //  waardoor de verschillende, zelf te schrijven, tests goed worden uitgevoerd.
 
 //  De opbouw van classes is als volgt:
