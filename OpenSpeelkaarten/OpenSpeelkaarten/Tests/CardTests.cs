@@ -5,8 +5,12 @@ using OpenSpeelkaarten.Structures.SLL;
 using OpenSpeelkaarten.Structures.Stack;
 using OpenSpeelkaarten.Structures.Queue;
 using OpenSpeelkaarten.Structures.Tree;
-using OpenSpeelkaarten.Sorters;
-using OpenSpeelkaarten.Searchers;
+using OpenSpeelkaarten.Sorters.Array;
+using OpenSpeelkaarten.Sorters.List;
+using OpenSpeelkaarten.Sorters.SingleLinkedList;
+using OpenSpeelkaarten.Searchers.Array;
+using OpenSpeelkaarten.Searchers.List;
+using OpenSpeelkaarten.Searchers.SingleLinkedList;
 
 namespace OpenSpeelkaarten.Tests
 {

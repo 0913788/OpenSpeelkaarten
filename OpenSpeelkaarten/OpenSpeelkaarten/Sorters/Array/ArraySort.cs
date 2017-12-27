@@ -1,7 +1,6 @@
 ﻿using OpenSpeelkaarten.Comparators;
-using OpenSpeelkaarten.Sorters.Array;
 
-namespace OpenSpeelkaarten.Sorters
+namespace OpenSpeelkaarten.Sorters.Array
 {
     class ArraySort<T>: AbsArraySort<T>
     {

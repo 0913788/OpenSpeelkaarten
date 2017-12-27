@@ -11,6 +11,21 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +46,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OpenSpeelkaarten.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,6 +67,10 @@
     <Compile Include="Comparators\IComparator.cs" />
     <Compile Include="Comparators\IntComparator.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Searchers\List\ListSearch.cs" />
+    <Compile Include="Searchers\SingleLinkedList\SingleLinkedListSearch.cs" />
+    <Compile Include="Sorters\List\ListSort.cs" />
+    <Compile Include="Sorters\SingleLinkedList\SingleLinkedListSort.cs" />
     <Compile Include="Structures\Cards\AbsCard.cs" />
     <Compile Include="Structures\Cards\Card.cs" />
     <Compile Include="Structures\Cards\ICard.cs" />
@@ -70,12 +95,12 @@
     <Compile Include="Structures\Tree\ITree.cs" />
     <Compile Include="Structures\Tree\Tree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Searchers\ArraySearch.cs" />
+    <Compile Include="Searchers\Array\ArraySearch.cs" />
     <Compile Include="Searchers\Array\AbsArraySearch.cs" />
     <Compile Include="Searchers\ISearch.cs" />
     <Compile Include="Searchers\List\AbsListSearch.cs" />
     <Compile Include="Searchers\SingleLinkedList\AbsSingleLinkedListSearch.cs" />
-    <Compile Include="Sorters\ArraySort.cs" />
+    <Compile Include="Sorters\Array\ArraySort.cs" />
     <Compile Include="Sorters\Array\AbsArraySort.cs" />
     <Compile Include="Sorters\ISort.cs" />
     <Compile Include="Sorters\List\AbsListSort.cs" />
@@ -86,6 +111,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ClassDiagramOpenSpeelkaarten v0.1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -43,5 +43,9 @@ namespace OpenSpeelkaarten.Structures.SLL
         /// Prints all elements of the SLL.
         /// </summary>
         void Display();
+
+        T GetHeadValue();
+
+        T GetEndValue();
     }
 }

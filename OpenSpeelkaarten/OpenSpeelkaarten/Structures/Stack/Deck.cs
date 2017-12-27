@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using OpenSpeelkaarten.Structures.Cards;
-using OpenSpeelkaarten.Structures.Stack;
 
 namespace OpenSpeelkaarten.Structures.Stack
 {

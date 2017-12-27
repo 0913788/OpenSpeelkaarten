@@ -41,5 +41,15 @@ namespace OpenSpeelkaarten.Structures.SLL
         {
             throw new NotImplementedException();
         }
+
+        public T GetHeadValue()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T GetEndValue()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
